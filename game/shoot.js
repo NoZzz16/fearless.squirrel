@@ -97,7 +97,6 @@ function player_falling()
                 && (y < mtileY))
             {
                 player1.dead();
-                player1.life--;
             }
         }
     }
